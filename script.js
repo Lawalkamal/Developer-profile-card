@@ -8,6 +8,7 @@ showBtn.addEventListener("click", function () {
       showBtn.textContent = "Show less detail";
     } else {
       moreDetails.classList.add("hidden");
+      showBtn.textContent = 'Show more details';
     }
   });
 });
