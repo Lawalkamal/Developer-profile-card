@@ -1,8 +1,13 @@
-const detailsBtn = document.querySelector("#show-details");
-const infoTab = document.querySelector(".full");
-const showMore = function () {
-  infoTab.classList.add("hidden");
-};
-const showLess = function () {
-  infoTab.classList.remove("hidden");
-};
+const showBtn = document.querySelector("#show-details");
+const moreDetails = document.querySelector(".full");
+
+showBtn.addEventListener("click", function () {
+  showBtn.addEventListener("click", () => {
+    if (moreDetails.classList.contains("hidden")) {
+      moreDetails.classList.remove("hidden");
+      showBtn.textContent = "Show less detail";
+    } else {
+      moreDetails.classList.add("hidden");
+    }
+  });
+});
