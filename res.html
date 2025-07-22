@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <style>
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --black: #000501;
+        --white: #ffffff;
+        --blue: #294592;
+        --lightblue: rgb(71, 121, 197);
+        --para: Winky Rough, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+          "Helvetica Neue", sans-serif;
+      }
+
+      body{
+        background-color: var(--black);
+        color: white;
+      }
+
+      main{
+        background-color: #050542;
+      }
+      .profile-img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="profile-card">
+        <div class="flex">
+            
+        </div>
+        <img src="./images/unnamed.jpg" alt="profile image" class="profile-img" />
+        <h1>Lawal Kamal</h1>
+        <h2>Frontend Developer</h2>
+        <p class="location">Ikeja, Lagos</p>
+        <p>
+          Passionate developer with a love for creating beautiful, user-friendly
+          web experiences. I enjoy turning complex problems into simple, elegant
+          solutions. When I'm not coding, you'll find me exploring new
+          technologies, contributing to open source projects, or mentoring
+          fellow developers. I believe in continuous learning and staying
+          up-to-date with the latest industry trends.
+        </p>
+      </div>
+      <h3>Core Skills</h3>
+      <div class="skills">
+        <div class="skill 1">
+          <h4>HTML</h4>
+        </div>
+        <div class="skill 2">
+          <h4>CSS</h4>
+        </div>
+        <div class="skill 3">
+          <h4>Javascript</h4>
+        </div>
+        <div class="skill 4">
+          <h4>UI/UX Design</h4>
+        </div>
+        <div class="skill 5">
+          <h4>React</h4>
+        </div>
+        <div class="skill 6">
+          <h4>Git</h4>
+        </div>
+      </div>
+      <div class="profile-links">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </div>
+      <div class="hidden">
+        <div class="more-about-me">
+          <h2>More about meet</h2>
+          <p>
+            With over 2 years of experience in web development, I specialize in
+            building scalable applications using React, Node.js, and cloud
+            technologies.
+          </p>
+        </div>
+        <div class="additional-tech">
+            
+        </div>
+      </div>
+      <button>Show More Details</button>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
